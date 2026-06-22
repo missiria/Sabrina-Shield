@@ -8,36 +8,36 @@
 
 # Vision
 
-Build **Sabrina Shield**, a modern, extensible, production-ready security library for NestJS that helps developers secure 
+Build **Sabrina Shield**, a modern, extensible, production-ready security library for NestJS that helps developers secure
 APIs with minimal configuration while remaining fully customizable.
 
 The project should be framework-agnostic at its core and expose a first-class NestJS integration.
 
 The philosophy is:
 
-* Secure by default
-* Zero vendor lock-in
-* Modular architecture
-* High performance
-* Developer Experience first
-* Open Source (MIT)
-* SOLID
-* Clean Architecture
-* Hexagonal Architecture
-* Dependency Injection
-* 100% TypeScript
+- Secure by default
+- Zero vendor lock-in
+- Modular architecture
+- High performance
+- Developer Experience first
+- Open Source (MIT)
+- SOLID
+- Clean Architecture
+- Hexagonal Architecture
+- Dependency Injection
+- 100% TypeScript
 
 ---
 
 # Target users
 
-* NestJS developers
-* SaaS applications
-* APIs
-* Microservices
-* WordPress Headless APIs
-* Enterprise applications
-* Startups
+- NestJS developers
+- SaaS applications
+- APIs
+- Microservices
+- WordPress Headless APIs
+- Enterprise applications
+- Startups
 
 ---
 
@@ -93,19 +93,19 @@ sabrina-shield/
 
 Support multiple algorithms.
 
-* Fixed Window
-* Sliding Window
-* Token Bucket
-* Leaky Bucket
+- Fixed Window
+- Sliding Window
+- Token Bucket
+- Leaky Bucket
 
 Configurable per:
 
-* IP
-* User ID
-* API Key
-* Route
-* Header
-* Device Fingerprint
+- IP
+- User ID
+- API Key
+- Route
+- Header
+- Device Fingerprint
 
 Example
 
@@ -122,9 +122,9 @@ Example
 
 Support
 
-* Header authentication
-* Multiple keys
-* Prefix support
+- Header authentication
+- Multiple keys
+- Prefix support
 
 ```
 Authorization: ApiKey xxxxxxxxx
@@ -142,12 +142,12 @@ x-api-key
 
 Automatically configure
 
-* CSP
-* HSTS
-* XSS Protection
-* Referrer Policy
-* Permissions Policy
-* Frame Options
+- CSP
+- HSTS
+- XSS Protection
+- Referrer Policy
+- Permissions Policy
+- Frame Options
 
 ---
 
@@ -226,11 +226,11 @@ Above threshold:
 
 Generate anonymous fingerprints using
 
-* IP
-* Accept Language
-* User Agent
-* Timezone
-* Screen hints (optional)
+- IP
+- Accept Language
+- User Agent
+- Timezone
+- Screen hints (optional)
 
 No cookies required.
 
@@ -240,14 +240,14 @@ No cookies required.
 
 Detect
 
-* curl
-* wget
-* Python requests
-* sqlmap
-* nikto
-* nmap
-* zap
-* Burp Suite
+- curl
+- wget
+- Python requests
+- sqlmap
+- nikto
+- nmap
+- zap
+- Burp Suite
 
 Allow custom signatures.
 
@@ -317,32 +317,24 @@ Return standardized JSON
 
 ```ts
 imports: [
+  SabrinaShieldModule.forRoot({
+    rateLimit: {
+      default: {
+        max: 100,
 
-SabrinaShieldModule.forRoot({
+        window: '1m',
+      },
 
-rateLimit: {
+      store: new RedisStore(),
+    },
 
-default: {
+    headers: true,
 
-max:100,
+    audit: true,
 
-window:"1m"
-
-},
-
-store:new RedisStore()
-
-},
-
-headers:true,
-
-audit:true,
-
-apiKeys:true
-
-})
-
-]
+    apiKeys: true,
+  }),
+];
 ```
 
 ---
@@ -377,62 +369,62 @@ apiKeys:true
 
 # Future Modules
 
-* OAuth Protection
-* JWT Hardening
-* Session Security
-* Webhook Signature Validation
-* DDoS Detection
-* CSRF Protection
-* CORS Builder
-* Signed URLs
-* Request Replay Protection
-* Secret Rotation
-* Geo Blocking
-* ASN Blocking
-* Honeypot
-* CAPTCHA Adapter
-* Email Reputation
-* Threat Intelligence
-* OWASP Rules
-* Cloudflare Integration
-* Fail2Ban Integration
-* OpenTelemetry Metrics
-* Prometheus Metrics
-* Grafana Dashboard
+- OAuth Protection
+- JWT Hardening
+- Session Security
+- Webhook Signature Validation
+- DDoS Detection
+- CSRF Protection
+- CORS Builder
+- Signed URLs
+- Request Replay Protection
+- Secret Rotation
+- Geo Blocking
+- ASN Blocking
+- Honeypot
+- CAPTCHA Adapter
+- Email Reputation
+- Threat Intelligence
+- OWASP Rules
+- Cloudflare Integration
+- Fail2Ban Integration
+- OpenTelemetry Metrics
+- Prometheus Metrics
+- Grafana Dashboard
 
 ---
 
 # Design Principles
 
-* SOLID
-* DRY
-* KISS
-* Composition over inheritance
-* Dependency Injection
-* Immutable configuration
-* Framework agnostic core
-* Tree-shakable packages
-* Async-first
-* Promise-based APIs
-* Zero runtime reflection when possible
+- SOLID
+- DRY
+- KISS
+- Composition over inheritance
+- Dependency Injection
+- Immutable configuration
+- Framework agnostic core
+- Tree-shakable packages
+- Async-first
+- Promise-based APIs
+- Zero runtime reflection when possible
 
 ---
 
 # Quality Requirements
 
-* 95%+ unit test coverage
-* Integration tests
-* E2E tests
-* ESLint
-* Prettier
-* Husky
-* Conventional Commits
-* Changesets
-* Semantic Versioning
-* GitHub Actions CI/CD
-* Typedoc documentation
-* API Extractor
-* pnpm workspace
+- 95%+ unit test coverage
+- Integration tests
+- E2E tests
+- ESLint
+- Prettier
+- Husky
+- Conventional Commits
+- Changesets
+- Semantic Versioning
+- GitHub Actions CI/CD
+- Typedoc documentation
+- API Extractor
+- pnpm workspace
 
 ---
 
@@ -440,18 +432,18 @@ apiKeys:true
 
 Provide comprehensive documentation including
 
-* Installation
-* Quick Start
-* NestJS Integration
-* Redis Integration
-* Rate Limiting
-* API Keys
-* Security Headers
-* Audit Logs
-* Custom Stores
-* Custom Guards
-* Custom Strategies
-* Plugin Development
+- Installation
+- Quick Start
+- NestJS Integration
+- Redis Integration
+- Rate Limiting
+- API Keys
+- Security Headers
+- Audit Logs
+- Custom Stores
+- Custom Guards
+- Custom Strategies
+- Plugin Development
 
 ---
 
@@ -459,12 +451,11 @@ Provide comprehensive documentation including
 
 Sabrina Shield should become the security equivalent of:
 
-* Passport.js for authentication
-* Helmet for HTTP headers
-* express-rate-limit for throttling
+- Passport.js for authentication
+- Helmet for HTTP headers
+- express-rate-limit for throttling
 
 ...but designed from day one for modern TypeScript, NestJS, Clean Architecture, cloud-native deployments, and extensibility.
 
-The project should evolve into a complete security ecosystem with optional plugins while keeping the core lightweight, fast, 
+The project should evolve into a complete security ecosystem with optional plugins while keeping the core lightweight, fast,
 and dependency-minimal.
-

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPointStrategy": "packages",
+  "entryPoints": [
+    "packages/core",
+    "packages/nest",
+    "packages/redis",
+    "packages/express",
+    "packages/fastify"
+  ],
+  "out": "docs/api",
+  "name": "Sabrina Shield",
+  "readme": "README.md",
+  "excludePrivate": true,
+  "excludeInternal": true
+}
