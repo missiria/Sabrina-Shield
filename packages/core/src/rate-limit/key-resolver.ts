@@ -36,7 +36,10 @@ function resolveDimension(
     case 'header':
       return (options.header ? getHeader(ctx, options.header) : undefined) ?? '-';
     case 'fingerprint':
-      return generateFingerprint(ctx);
+      // Device-stable on purpose: excludes IP so it still keys the same client
+      // when it rotates IPs (proxies, VPNs, mobile/Wi-Fi switching). Combine
+      // with the `ip` dimension when you want both axes.
+      return generateFingerprint(ctx, { includeIp: false });
     default:
       return '-';
   }
