@@ -1,8 +1,8 @@
 # 🛡️ Sabrina Shield
 
 > **The modern security toolkit for NestJS APIs.**
-> Protect your applications against brute-force attacks, abuse, bots, and common API threats with a modular, 
-high-performance, open-source security framework.
+> Protect your applications against brute-force attacks, abuse, bots, and common API threats with a modular,
+> high-performance, open-source security framework.
 
 <p align="center">
 
@@ -21,36 +21,36 @@ high-performance, open-source security framework.
 
 Modern APIs are constantly targeted by:
 
-* Brute-force attacks
-* Credential stuffing
-* DDoS attempts
-* API abuse
-* Enumeration attacks
-* Malicious bots
-* Rate limit bypasses
-* Automated scanners
+- Brute-force attacks
+- Credential stuffing
+- DDoS attempts
+- API abuse
+- Enumeration attacks
+- Malicious bots
+- Rate limit bypasses
+- Automated scanners
 
-Sabrina Shield provides production-ready security components designed specifically for **NestJS**, allowing developers to 
+Sabrina Shield provides production-ready security components designed specifically for **NestJS**, allowing developers to
 secure APIs with minimal configuration while remaining fully extensible.
 
 ---
 
 # Features
 
-* 🚀 High-performance Rate Limiting
-* 🔐 API Key Authentication
-* 🌍 IP & Country Blocking
-* 🤖 Bot Detection
-* 🛡️ Security Headers
-* 📊 Audit Logging
-* ⚡ Redis Distributed Rate Limiting
-* 🧠 Risk Scoring Engine
-* 🪪 Device Fingerprinting
-* 📦 Modular Architecture
-* 🔌 Custom Storage Providers
-* 🎯 Route-Level Security
-* 🏗️ Framework-Agnostic Core
-* ✅ 100% TypeScript
+- 🚀 High-performance Rate Limiting
+- 🔐 API Key Authentication
+- 🌍 IP & Country Blocking
+- 🤖 Bot Detection
+- 🛡️ Security Headers
+- 📊 Audit Logging
+- ⚡ Redis Distributed Rate Limiting
+- 🧠 Risk Scoring Engine
+- 🪪 Device Fingerprinting
+- 📦 Modular Architecture
+- 🔌 Custom Storage Providers
+- 🎯 Route-Level Security
+- 🏗️ Framework-Agnostic Core
+- ✅ 100% TypeScript
 
 ---
 
@@ -160,10 +160,10 @@ Fastify adapter.
 
 # Supported Algorithms
 
-* Fixed Window
-* Sliding Window
-* Token Bucket
-* Leaky Bucket
+- Fixed Window
+- Sliding Window
+- Token Bucket
+- Leaky Bucket
 
 ---
 
@@ -209,12 +209,12 @@ Protect internal services.
 
 Automatically enables:
 
-* CSP
-* HSTS
-* X-Frame-Options
-* Referrer Policy
-* Permissions Policy
-* X-Content-Type-Options
+- CSP
+- HSTS
+- X-Frame-Options
+- Referrer Policy
+- Permissions Policy
+- X-Content-Type-Options
 
 ---
 
@@ -222,11 +222,11 @@ Automatically enables:
 
 Track:
 
-* Failed logins
-* Blocked requests
-* Invalid API keys
-* Rate-limit violations
-* Suspicious traffic
+- Failed logins
+- Blocked requests
+- Invalid API keys
+- Rate-limit violations
+- Suspicious traffic
 
 ---
 
@@ -234,10 +234,10 @@ Track:
 
 Perfect for:
 
-* Kubernetes
-* Docker Swarm
-* Horizontal Scaling
-* Multiple API Instances
+- Kubernetes
+- Docker Swarm
+- Horizontal Scaling
+- Multiple API Instances
 
 ---
 
@@ -245,31 +245,31 @@ Perfect for:
 
 Sabrina Shield follows:
 
-* SOLID
-* Clean Architecture
-* Hexagonal Architecture
-* OWASP Best Practices
-* Zero Vendor Lock-in
-* Developer Experience First
-* Security by Default
+- SOLID
+- Clean Architecture
+- Hexagonal Architecture
+- OWASP Best Practices
+- Zero Vendor Lock-in
+- Developer Experience First
+- Security by Default
 
 ---
 
 # Roadmap
 
-* JWT Hardening
-* CSRF Protection
-* Webhook Signature Validation
-* CAPTCHA Adapter
-* ASN Blocking
-* Threat Intelligence
-* Honeypot
-* OpenTelemetry Integration
-* Prometheus Metrics
-* Grafana Dashboard
-* Cloudflare Integration
-* Fail2Ban Integration
-* Dashboard UI
+- JWT Hardening
+- CSRF Protection
+- Webhook Signature Validation
+- CAPTCHA Adapter
+- ASN Blocking
+- Threat Intelligence
+- Honeypot
+- OpenTelemetry Integration
+- Prometheus Metrics
+- Grafana Dashboard
+- Cloudflare Integration
+- Fail2Ban Integration
+- Dashboard UI
 
 ---
 
@@ -279,11 +279,11 @@ Contributions are welcome!
 
 Whether it's:
 
-* Bug fixes
-* Documentation
-* New modules
-* Performance improvements
-* Security research
+- Bug fixes
+- Documentation
+- New modules
+- Performance improvements
+- Security research
 
 Feel free to open an Issue or Pull Request.
 
@@ -297,15 +297,15 @@ MIT License
 
 # Keywords
 
-NestJS Security • NestJS Rate Limiter • API Security • Redis Rate Limiting • NestJS Middleware • OWASP • TypeScript Security 
-• API Protection • NestJS Guards • NestJS Authentication • Bot Detection • API Gateway • Express Security • Fastify Security 
+NestJS Security • NestJS Rate Limiter • API Security • Redis Rate Limiting • NestJS Middleware • OWASP • TypeScript Security
+• API Protection • NestJS Guards • NestJS Authentication • Bot Detection • API Gateway • Express Security • Fastify Security
 • Distributed Rate Limiting • Backend Security • Cybersecurity • Node.js Security
 
 ---
 
 # Star the Project ⭐
 
-If Sabrina Shield helps secure your APIs, consider giving the repository a ⭐ to support the project and help other 
+If Sabrina Shield helps secure your APIs, consider giving the repository a ⭐ to support the project and help other
 developers discover it.
 
 www.eksneks.com By MISSIRIA
