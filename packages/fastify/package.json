@@ -1,6 +1,6 @@
 {
   "name": "@sabrina-shield/fastify",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Fastify plugin adapter for Sabrina Shield.",
   "license": "MIT",
   "type": "module",

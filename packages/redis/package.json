@@ -1,6 +1,6 @@
 {
   "name": "@sabrina-shield/redis",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Redis store for distributed Sabrina Shield rate limiting and counters.",
   "license": "MIT",
   "type": "module",

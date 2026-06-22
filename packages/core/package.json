@@ -1,6 +1,6 @@
 {
   "name": "@sabrina-shield/core",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Framework-agnostic security engine for Sabrina Shield.",
   "license": "MIT",
   "type": "module",
