@@ -1,5 +1,5 @@
 {
-  "name": "@sabrina-shield/core",
+  "name": "@eksneks/core",
   "version": "0.1.0",
   "description": "Framework-agnostic security engine for Sabrina Shield.",
   "license": "MIT",
@@ -33,5 +33,14 @@
     "tsup": "^8.3.5",
     "typescript": "^5.7.3",
     "vitest": "^2.1.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/missiria/Sabrina-Shield.git",
+    "directory": "packages/core"
+  },
+  "homepage": "https://github.com/missiria/Sabrina-Shield/tree/main/packages/core#readme",
+  "bugs": {
+    "url": "https://github.com/missiria/Sabrina-Shield/issues"
   }
 }

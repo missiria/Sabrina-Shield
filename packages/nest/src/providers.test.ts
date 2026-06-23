@@ -7,7 +7,7 @@ import {
   BotDetector,
   IpBlocklist,
   RequestSizeGuard,
-} from '@sabrina-shield/core';
+} from '@eksneks/core';
 import { buildEngineProviders } from './providers';
 import { TOKENS } from './constants';
 import type { SabrinaShieldOptions } from './options';

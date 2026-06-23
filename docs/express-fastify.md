@@ -14,7 +14,7 @@ import {
   rateLimit,
   apiKey,
   shieldErrorHandler,
-} from '@sabrina-shield/express';
+} from '@eksneks/express';
 
 const app = express();
 app.use(securityHeaders());
@@ -30,7 +30,7 @@ standardized JSON body. Pass a `store` to `rateLimit` for distributed limiting.
 
 ```ts
 import Fastify from 'fastify';
-import { sabrinaShield } from '@sabrina-shield/fastify';
+import { sabrinaShield } from '@eksneks/fastify';
 
 const app = Fastify();
 await app.register(sabrinaShield, {

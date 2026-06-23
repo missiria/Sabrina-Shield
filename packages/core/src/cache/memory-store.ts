@@ -25,7 +25,7 @@ interface KvEntry {
  *
  * Atomic by virtue of Node's single-threaded event loop: each method runs to
  * completion without interleaving. Suitable for single-instance deployments and
- * tests; use `@sabrina-shield/redis` for distributed setups. TTL is enforced
+ * tests; use `@eksneks/redis` for distributed setups. TTL is enforced
  * lazily on access plus an optional periodic sweep.
  */
 export class MemoryStore implements RateLimitStore, KeyValueStore {

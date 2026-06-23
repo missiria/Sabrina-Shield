@@ -4,8 +4,8 @@
 
 ```ts
 import Redis from 'ioredis';
-import { RedisStore } from '@sabrina-shield/redis';
-import { SabrinaShieldModule } from '@sabrina-shield/nest';
+import { RedisStore } from '@eksneks/redis';
+import { SabrinaShieldModule } from '@eksneks/nest';
 
 const store = new RedisStore(new Redis(process.env.REDIS_URL!));
 
@@ -20,10 +20,10 @@ ideal for Kubernetes, Docker Swarm, or any horizontally-scaled API.
 
 ## Writing a custom store
 
-Implement the `RateLimitStore` port from `@sabrina-shield/core`:
+Implement the `RateLimitStore` port from `@eksneks/core`:
 
 ```ts
-import type { RateLimitStore, CounterState, BucketParams, BucketState } from '@sabrina-shield/core';
+import type { RateLimitStore, CounterState, BucketParams, BucketState } from '@eksneks/core';
 
 export class MyStore implements RateLimitStore {
   hit(key: string, windowMs: number, cost: number, nowMs: number): Promise<CounterState> {

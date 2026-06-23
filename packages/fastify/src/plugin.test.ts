@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import Fastify, { type FastifyInstance } from 'fastify';
-import { MemoryStore } from '@sabrina-shield/core';
+import { MemoryStore } from '@eksneks/core';
 import { sabrinaShield, type FastifyShieldOptions } from './plugin';
 
 async function build(options: FastifyShieldOptions): Promise<FastifyInstance> {

@@ -26,7 +26,7 @@ import {
   type RateLimitOptions,
   type RequestContext,
   type GeoProvider,
-} from '@sabrina-shield/core';
+} from '@eksneks/core';
 import { METADATA, TOKENS } from './constants';
 import { toRequestContext, setResponseHeader } from './context';
 

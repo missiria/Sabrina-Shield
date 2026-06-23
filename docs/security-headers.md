@@ -26,6 +26,6 @@ SabrinaShieldModule.forRoot({
 The pure builder is also exported for direct use:
 
 ```ts
-import { buildSecurityHeaders } from '@sabrina-shield/core';
+import { buildSecurityHeaders } from '@eksneks/core';
 const headers = buildSecurityHeaders({ hsts: false });
 ```

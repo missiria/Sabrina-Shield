@@ -22,7 +22,7 @@ import {
   type AuditEvent,
   type AuditSink,
   type GeoProvider,
-} from '@sabrina-shield/core';
+} from '@eksneks/core';
 import { ShieldGuard } from './shield.guard';
 import { RateLimit, ApiKey, Public, RequireRole, BlockIp, Risk, BlockCountry } from './decorators';
 import { makeExecCtx, makeReq, makeRes } from './test-helpers';

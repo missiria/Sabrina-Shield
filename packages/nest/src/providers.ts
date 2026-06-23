@@ -10,7 +10,7 @@ import {
   RequestSizeGuard,
   MemoryStore,
   type GeoProvider,
-} from '@sabrina-shield/core';
+} from '@eksneks/core';
 import { TOKENS } from './constants';
 import type { SabrinaShieldOptions } from './options';
 

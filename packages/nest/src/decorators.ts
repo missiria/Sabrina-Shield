@@ -1,5 +1,5 @@
 import { SetMetadata, type CustomDecorator } from '@nestjs/common';
-import type { RateLimitOptions } from '@sabrina-shield/core';
+import type { RateLimitOptions } from '@eksneks/core';
 import { METADATA } from './constants';
 
 /** Apply a rate limit to a route or controller. */

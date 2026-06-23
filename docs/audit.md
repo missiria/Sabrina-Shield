@@ -13,7 +13,7 @@ handler completion.
 ## Custom sink
 
 ```ts
-import type { AuditSink, AuditEvent } from '@sabrina-shield/core';
+import type { AuditSink, AuditEvent } from '@eksneks/core';
 
 class DbAuditSink implements AuditSink {
   async emit(event: AuditEvent) {

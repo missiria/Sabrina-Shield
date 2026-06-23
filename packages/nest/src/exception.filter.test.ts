@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { RateLimitedError, ApiKeyInvalidError } from '@sabrina-shield/core';
+import { RateLimitedError, ApiKeyInvalidError } from '@eksneks/core';
 import { ShieldExceptionFilter } from './exception.filter';
 import { makeRes } from './test-helpers';
 import type { ArgumentsHost } from '@nestjs/common';

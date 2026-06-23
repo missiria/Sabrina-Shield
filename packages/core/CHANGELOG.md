@@ -1,4 +1,4 @@
-# @sabrina-shield/core
+# @eksneks/core
 
 ## 0.1.0
 

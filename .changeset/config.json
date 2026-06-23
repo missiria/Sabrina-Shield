@@ -2,10 +2,10 @@
   "$schema": "https://unpkg.com/@changesets/config@3.0.0/schema.json",
   "changelog": "@changesets/cli/changelog",
   "commit": false,
-  "fixed": [["@sabrina-shield/*"]],
+  "fixed": [["@eksneks/*"]],
   "linked": [],
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["@sabrina-shield/example-*"]
+  "ignore": ["@eksneks/example-*"]
 }

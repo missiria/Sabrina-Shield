@@ -23,7 +23,7 @@ import {
   type RequestSizeOptions,
   type SecurityHeadersOptions,
   type Clock,
-} from '@sabrina-shield/core';
+} from '@eksneks/core';
 import { toRequestContext } from './context';
 
 export interface FastifyShieldOptions {

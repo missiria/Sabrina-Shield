@@ -18,13 +18,13 @@ API reference (Typedoc) is generated into `docs/api` via `pnpm docs`.
 
 ## Packages
 
-| Package                   | Purpose                                                |
-| ------------------------- | ------------------------------------------------------ |
-| `@sabrina-shield/core`    | Framework-agnostic engines, interfaces, errors         |
-| `@sabrina-shield/nest`    | NestJS module, guard, decorators, interceptors, filter |
-| `@sabrina-shield/redis`   | Distributed Redis store                                |
-| `@sabrina-shield/express` | Express middleware                                     |
-| `@sabrina-shield/fastify` | Fastify plugin                                         |
+| Package            | Purpose                                                |
+| ------------------ | ------------------------------------------------------ |
+| `@eksneks/core`    | Framework-agnostic engines, interfaces, errors         |
+| `@eksneks/nest`    | NestJS module, guard, decorators, interceptors, filter |
+| `@eksneks/redis`   | Distributed Redis store                                |
+| `@eksneks/express` | Express middleware                                     |
+| `@eksneks/fastify` | Fastify plugin                                         |
 
 ## Architecture
 

@@ -1,5 +1,5 @@
 import type { Request } from 'express';
-import type { RequestContext } from '@sabrina-shield/core';
+import type { RequestContext } from '@eksneks/core';
 
 function normalizeHeaders(raw: Request['headers']): Record<string, string> {
   const out: Record<string, string> = {};
