@@ -39,5 +39,9 @@ jobs:
           publish: pnpm release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # setup-node's registry-url writes an .npmrc keyed on NODE_AUTH_TOKEN
+          # and points npm at it via NPM_CONFIG_USERCONFIG — so the real token
+          # must be exposed under this exact name, not just NPM_TOKEN.
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_CONFIG_PROVENANCE: 'true'
