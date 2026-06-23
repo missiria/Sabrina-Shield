@@ -2,7 +2,7 @@
 
 ```ts
 import { Module } from '@nestjs/common';
-import { SabrinaShieldModule } from '@sabrina-shield/nest';
+import { SabrinaShieldModule } from '@eksneks/nest';
 
 @Module({
   imports: [
@@ -20,7 +20,7 @@ Protect a route:
 
 ```ts
 import { Controller, Get } from '@nestjs/common';
-import { RateLimit } from '@sabrina-shield/nest';
+import { RateLimit } from '@eksneks/nest';
 
 @Controller()
 export class AppController {

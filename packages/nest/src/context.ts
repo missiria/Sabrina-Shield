@@ -1,5 +1,5 @@
 import type { ExecutionContext } from '@nestjs/common';
-import type { RequestContext } from '@sabrina-shield/core';
+import type { RequestContext } from '@eksneks/core';
 
 /** Lowercase a header map whose values may be strings or string arrays. */
 function normalizeHeaders(raw: Record<string, unknown> = {}): Record<string, string> {

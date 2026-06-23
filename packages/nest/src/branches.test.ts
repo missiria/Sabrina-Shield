@@ -1,7 +1,7 @@
 import 'reflect-metadata';
 import { describe, it, expect } from 'vitest';
 import { Reflector } from '@nestjs/core';
-import { RateLimitedError } from '@sabrina-shield/core';
+import { RateLimitedError } from '@eksneks/core';
 import { Risk, Audit, AllowCountry, BlockCountry } from './decorators';
 import { METADATA } from './constants';
 import { toRequestContext } from './context';

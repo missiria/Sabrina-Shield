@@ -57,13 +57,13 @@ secure APIs with minimal configuration while remaining fully extensible.
 # Installation
 
 ```bash
-npm install @sabrina-shield/nest
+npm install @eksneks/nest
 ```
 
 or
 
 ```bash
-pnpm add @sabrina-shield/nest
+pnpm add @eksneks/nest
 ```
 
 ---
@@ -71,7 +71,7 @@ pnpm add @sabrina-shield/nest
 # Quick Start
 
 ```ts
-import { SabrinaShieldModule } from '@sabrina-shield/nest';
+import { SabrinaShieldModule } from '@eksneks/nest';
 
 @Module({
   imports: [

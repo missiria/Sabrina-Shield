@@ -1,5 +1,5 @@
 import type { FastifyRequest } from 'fastify';
-import type { RequestContext } from '@sabrina-shield/core';
+import type { RequestContext } from '@eksneks/core';
 
 function normalizeHeaders(raw: FastifyRequest['headers']): Record<string, string> {
   const out: Record<string, string> = {};

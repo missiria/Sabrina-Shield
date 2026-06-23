@@ -1,5 +1,5 @@
 import { Catch, type ArgumentsHost, type ExceptionFilter } from '@nestjs/common';
-import { ShieldError, toResponseBody } from '@sabrina-shield/core';
+import { ShieldError, toResponseBody } from '@eksneks/core';
 
 /**
  * Translates any {@link ShieldError} into the standardized JSON response

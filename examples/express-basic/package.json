@@ -1,5 +1,5 @@
 {
-  "name": "@sabrina-shield/example-express-basic",
+  "name": "@eksneks/example-express-basic",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -9,8 +9,8 @@
     "start": "node --import tsx src/server.ts"
   },
   "dependencies": {
-    "@sabrina-shield/core": "workspace:*",
-    "@sabrina-shield/express": "workspace:*",
+    "@eksneks/core": "workspace:*",
+    "@eksneks/express": "workspace:*",
     "express": "^5.0.1"
   },
   "devDependencies": {

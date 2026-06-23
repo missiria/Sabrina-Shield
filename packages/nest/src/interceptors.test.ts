@@ -2,7 +2,7 @@ import 'reflect-metadata';
 import { describe, it, expect } from 'vitest';
 import { lastValueFrom, of } from 'rxjs';
 import { Reflector } from '@nestjs/core';
-import { AuditService, type AuditEvent, type AuditSink } from '@sabrina-shield/core';
+import { AuditService, type AuditEvent, type AuditSink } from '@eksneks/core';
 import { SecurityHeadersInterceptor, AuditInterceptor } from './interceptors';
 import { Audit, SkipAudit } from './decorators';
 import { makeExecCtx, makeReq, makeRes } from './test-helpers';

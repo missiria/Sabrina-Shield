@@ -1,6 +1,6 @@
 {
-  "name": "@sabrina-shield/redis",
-  "version":
+  "name": "@eksneks/redis",
+  "version": "0.1.0",
   "description": "Redis store for distributed Sabrina Shield rate limiting and counters.",
   "license": "MIT",
   "type": "module",
@@ -30,7 +30,7 @@
     "clean": "rimraf dist coverage .turbo"
   },
   "dependencies": {
-    "@sabrina-shield/core": "workspace:*"
+    "@eksneks/core": "workspace:*"
   },
   "peerDependencies": {
     "ioredis": "^5.0.0"
@@ -41,5 +41,14 @@
     "tsup": "^8.3.5",
     "typescript": "^5.7.3",
     "vitest": "^2.1.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/missiria/Sabrina-Shield.git",
+    "directory": "packages/redis"
+  },
+  "homepage": "https://github.com/missiria/Sabrina-Shield/tree/main/packages/redis#readme",
+  "bugs": {
+    "url": "https://github.com/missiria/Sabrina-Shield/issues"
   }
 }

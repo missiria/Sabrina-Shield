@@ -1,5 +1,5 @@
 {
-  "name": "@sabrina-shield/example-nest-basic",
+  "name": "@eksneks/example-nest-basic",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -9,9 +9,9 @@
     "start": "node --import tsx src/main.ts"
   },
   "dependencies": {
-    "@sabrina-shield/core": "workspace:*",
-    "@sabrina-shield/nest": "workspace:*",
-    "@sabrina-shield/redis": "workspace:*",
+    "@eksneks/core": "workspace:*",
+    "@eksneks/nest": "workspace:*",
+    "@eksneks/redis": "workspace:*",
     "@nestjs/common": "^11.0.0",
     "@nestjs/core": "^11.0.0",
     "@nestjs/platform-express": "^11.0.0",

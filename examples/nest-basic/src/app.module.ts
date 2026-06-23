@@ -1,16 +1,16 @@
 import { Module } from '@nestjs/common';
-import { SabrinaShieldModule } from '@sabrina-shield/nest';
+import { SabrinaShieldModule } from '@eksneks/nest';
 import {
   torExitNodeRule,
   badUserAgentRule,
   knownScannerRule,
   blockedCountryRule,
-} from '@sabrina-shield/core';
+} from '@eksneks/core';
 import { AppController } from './app.controller';
 
 // Swap the in-memory store for Redis in production:
 //   import Redis from 'ioredis';
-//   import { RedisStore } from '@sabrina-shield/redis';
+//   import { RedisStore } from '@eksneks/redis';
 //   const store = new RedisStore(new Redis(process.env.REDIS_URL!));
 
 @Module({

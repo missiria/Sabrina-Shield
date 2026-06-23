@@ -8,7 +8,10 @@
   "homepage": "https://www.eksneks.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/eksneks/sabrina-shield.git"
+    "url": "git+https://github.com/missiria/Sabrina-Shield.git"
+  },
+  "bugs": {
+    "url": "https://github.com/missiria/Sabrina-Shield/issues"
   },
   "engines": {
     "node": ">=18"

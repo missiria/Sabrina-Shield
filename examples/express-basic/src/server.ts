@@ -7,7 +7,7 @@ import {
   botDetection,
   requestSize,
   shieldErrorHandler,
-} from '@sabrina-shield/express';
+} from '@eksneks/express';
 
 const app = express();
 app.use(express.json());

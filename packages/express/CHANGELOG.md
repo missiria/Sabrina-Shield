@@ -1,4 +1,4 @@
-# @sabrina-shield/express
+# @eksneks/express
 
 ## 0.1.0
 
@@ -22,4 +22,4 @@
 ### Patch Changes
 
 - Updated dependencies [f8f041d]
-  - @sabrina-shield/core@0.1.0
+  - @eksneks/core@0.1.0

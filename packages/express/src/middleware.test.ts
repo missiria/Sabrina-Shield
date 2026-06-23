@@ -6,7 +6,7 @@ import {
   IpBlockedError,
   BotDetectedError,
   PayloadTooLargeError,
-} from '@sabrina-shield/core';
+} from '@eksneks/core';
 import {
   rateLimit,
   apiKey,

@@ -9,7 +9,7 @@ import type {
   RequestSizeOptions,
   BotDetectorOptions,
   GeoProvider,
-} from '@sabrina-shield/core';
+} from '@eksneks/core';
 
 export interface RateLimitModuleOptions {
   /** Default limit applied to every route lacking an explicit `@RateLimit`. */

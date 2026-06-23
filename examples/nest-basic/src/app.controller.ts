@@ -1,5 +1,5 @@
 import { Controller, Get, Post } from '@nestjs/common';
-import { RateLimit, ApiKey, Public, BlockCountry } from '@sabrina-shield/nest';
+import { RateLimit, ApiKey, Public, BlockCountry } from '@eksneks/nest';
 
 @Controller()
 export class AppController {

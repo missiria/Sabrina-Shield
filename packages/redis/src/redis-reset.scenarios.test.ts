@@ -9,7 +9,7 @@
  */
 import { describe, it, expect, beforeEach } from 'vitest';
 import Redis from 'ioredis-mock';
-import { RateLimiter, type RateLimitOptions } from '@sabrina-shield/core';
+import { RateLimiter, type RateLimitOptions } from '@eksneks/core';
 import { RedisStore } from './redis-store';
 
 let seq = 0;

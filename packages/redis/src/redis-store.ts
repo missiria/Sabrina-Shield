@@ -5,7 +5,7 @@ import type {
   CounterState,
   BucketParams,
   BucketState,
-} from '@sabrina-shield/core';
+} from '@eksneks/core';
 
 export interface RedisStoreOptions {
   /** Prefix applied to every key (default `ss:`). */
